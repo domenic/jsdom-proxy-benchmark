@@ -1,0 +1,12 @@
+{
+  "name": "jsdom-proxy-benchmark",
+  "version": "1.0.0",
+  "description": "Benchmark for proxies that uses jsdom to build the ECMAScript spec",
+  "dependencies": {
+    "ecmarkup": "^3.12.0",
+    "jsdom": "^11.2.0"
+  },
+  "repository": "domenic/jsdom-proxy-benchmark",
+  "author": "Domenic Denicola <d@domenic.me> (https://domenic.me/)",
+  "license": "Apache-2.0"
+}
