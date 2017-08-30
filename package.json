@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Benchmark for proxies that uses jsdom to build the ECMAScript spec",
   "dependencies": {
+    "browserify": "^14.4.0",
     "ecmarkup": "^3.12.0",
     "jsdom": "^11.2.0"
   },
