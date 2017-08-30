@@ -28,9 +28,12 @@ The algorithms used for these traps are precisely those given in the [Web IDL sp
 
 All necessary code to run the benchmark is checked in to this repository, for maximum stability.
 
-To update the benchmark with new versions of ecmarkup and jsdom, run `npm install` and commit the results.
+### Update steps
 
-To update the benchmark with a new copy of the ECMAScript specification, run `./scripts/download-ecma262.sh` and commit the results.
+- To update the benchmark with new versions of ecmarkup and jsdom, run `npm install` and commit the results.
+- To update the benchmark with a new copy of the ECMAScript specification, run `./scripts/download-ecma262.sh`, then `node ./scripts/ecma262-to-js.js`, and commit the results.
+
+### The benchmark itself
 
 To run the benchmark, run `./benchmark.sh`. Maybe that script should be tweaked to allow easier attachment of debuggers/profilers.
 
